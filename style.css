@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    color: #939EAE;
+}
+body{
+    background-color:  #333A45;
+    font-weight: 500;
+
+}
+h1{
+    text-align: center;
+    font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+.fa-keyboard{
+    font-size: 3rem;
+    color: yellow;
+}
+#timer{
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 600px;
+   min-width: 200px;
+}
+
+#random{
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.3rem;
+  
+}
+
+textarea{
+    margin-top: 1.2rem;
+    width: 50rem;
+    height: 20rem;
+   padding: 2.2rem;
+    font-size: 1.1rem;
+    cursor: auto;
+    border: none;
+    outline: none;
+    border-radius: 1.3rem;
+}
+.newbtn{
+    width: 14rem;
+    padding: 26px;
+    border: 5px solid white;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    background-color: #333A45;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.speed{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.endsections{
+    min-height: 600px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#reset{
+    width: 14rem;
+    border: none;
+    border-radius: 10px;
+     margin-left: 43%;
+   color: white;
+    background-color: #333A45;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.newbtn:hover{
+    background-color: black;
+}
+#reset:hover{
+    background-color: black;
+}
+.correct{
+    color: white;
+    font-weight: 500;
+}
+.incorrect{
+    color: red;
+    font-weight: 500;
+}
+
+@media(max-width:676px){
+    .container{
+        min-height: 360px;
+    }
+    .fa-keyboard{
+        font-size: 1.1rem;
+    }
+textarea{
+    width: 24rem;
+    height: 16rem;
+}
+#random{
+    font-size: 1rem;
+    
+}
+h1{
+    font-size: 2.1rem;
+}
+#reset{
+    position: relative;
+    right: 45px;
+    width: 10rem;
+    }
+    .speed{
+        font-size: 1rem;
+    }
+}
